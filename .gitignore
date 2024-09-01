@@ -5,7 +5,6 @@ node_modules
 
 logs*
 
-jest-html-reporters-attach
-jest_html_reporters.html
+html-report
 
 .tsbuildinfo
