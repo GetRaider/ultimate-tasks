@@ -29,5 +29,5 @@ jobs:
         if: always()
         with:
           name: report
-          path: jest-html-reporters-attach/
+          path: jest_html_reporters.html
           retention-days: 30
