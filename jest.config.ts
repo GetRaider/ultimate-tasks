@@ -10,7 +10,16 @@ const config: Config.InitialOptions = {
   verbose: true,
   rootDir: `./`,
   passWithNoTests: true,
-  reporters: ["default", "jest-html-reporters"],
+  reporters: [
+    "default",
+    [
+      "jest-html-reporters",
+      {
+        publicPath: "./html-report",
+        filename: "report.html",
+      },
+    ],
+  ],
   moduleNameMapper: {
     "@helpers/(.*)": "<rootDir>/src/helpers/$1",
     "@constants/(.*)": "<rootDir>/src/constants/$1",
