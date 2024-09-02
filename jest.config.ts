@@ -24,6 +24,7 @@ const config: Config.InitialOptions = {
     "@helpers/(.*)": "<rootDir>/src/helpers/$1",
     "@constants/(.*)": "<rootDir>/src/constants/$1",
     "@magic-strings/(.*)": "<rootDir>/src/magic-strings/$1",
+    "@tasks/(.*)": "<rootDir>/src/tasks/$1",
   },
   ...getTestParams(),
 };

@@ -16,11 +16,10 @@
     "noEmit": true,
     "esModuleInterop": true,
     "paths": {
-      "@api/*": ["./src/api/*"],
       "@helpers/*": ["./src/helpers/*"],
       "@constants/*": ["./src/constants/*"],
-      "@fixtures/*": ["./src/fixtures/*"],
-      "@magic-strings/*": ["./src/magic-strings/*"]
+      "@magic-strings/*": ["./src/magic-strings/*"],
+      "@tasks/*": ["./src/tasks/*"]
     },
   },
   "ts-node": {

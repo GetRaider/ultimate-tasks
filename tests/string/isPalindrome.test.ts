@@ -1,4 +1,4 @@
-import { isPalindrome } from "../../src/examples/string.example";
+import { isPalindrome } from "@tasks/string.task";
 
 describe("isPalindrome", () => {
   const errorMessage = "Passed text is undefined or empty";
